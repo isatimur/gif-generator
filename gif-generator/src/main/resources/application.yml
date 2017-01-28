@@ -1,0 +1,20 @@
+#configure auto-configured MultipartConfigElement
+spring:
+  http:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+      location: ${java.io.tmpdir}
+  mvc:
+    favicon:
+      enabled: false
+logging:
+  level.: DEBUG
+xyz:
+  isatimur:
+    gif-location: ${java.io.tmpdir}/gif/
+    optimize: true
+security:
+  user:
+    name: user
+    password: user
