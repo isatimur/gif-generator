@@ -65,7 +65,7 @@ public class GifGeneratorAutoConfiguration {
 
     @Configuration
     @ConditionalOnWebApplication
-    public static class WebConfiguretion {
+    public static class WebConfiguration {
         @Value("${xyz.isatimur.gif-location}")
         private String gifLocation;
 
